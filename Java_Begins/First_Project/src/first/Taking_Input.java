@@ -11,7 +11,7 @@ public class Taking_Input {
 		System.out.println("Enter Age: ");
 		int value = scanner.nextInt();
 		scanner.nextLine();//clear next line char because next int does not clear it
-		System.out.println("Emter your favourite game: ");
+		System.out.println("Enter your favourite game: ");
 		String game = scanner.nextLine();
 		System.out.println("Hello there "+name+"! Welcome to OOP hell");
 		System.out.println("You are "+ value+ " years old!\nYour favourite game is: "+ game);
