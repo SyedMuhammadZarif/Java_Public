@@ -27,9 +27,26 @@ public class Main {
 		String temp;
 		temp = p;
 		p = q;
-		q = temp;
+		q = temp; 
 		System.out.println(p+" "+q);
 		
+		////////////////////////////OOP
+		
+		Class_Demo_Weapons AK47 = new Class_Demo_Weapons(); 
+		
+		AK47.name = "AK47";
+		AK47.damage = 60;
+		System.out.println("\n\n"+AK47.name);
+		AK47.shoot();
+		AK47.reload();
+		
+		
+		
+		Construct_Weapons weapon1 = new Construct_Weapons("m9",23,100);
+		System.out.println("\n\n"+weapon1.name);
+		System.out.println(weapon1.range+"m");
+		System.out.println(weapon1.damage+"dps");//this is like self.name in Python
+
 	}
 
 }
