@@ -6,10 +6,10 @@ public class Construct_Weapons {
 	int damage;
 	int range;
 	
-	Construct_Weapons(String name, int damage, int range){ //must be same as class name
+	Construct_Weapons(String name, int dmg, int range){ //must be same as class name
 		
 		this.name = name;
-		this.damage = damage;
+		this.damage = dmg;
 		this.range = range;
 		
 	}

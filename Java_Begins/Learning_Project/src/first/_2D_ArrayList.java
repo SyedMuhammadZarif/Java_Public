@@ -4,10 +4,10 @@ import java.util.*;
 public class _2D_ArrayList {
 	public static void main(String[] args) {
 		
-		ArrayList<String> WebDev = new ArrayList<String>();
-		ArrayList<String> AppDev = new ArrayList<String>();
-		ArrayList<String> SoftDev = new ArrayList<String>();
-		ArrayList<ArrayList<String>> Skills = new ArrayList<ArrayList<String>>();
+		ArrayList<String> WebDev = new ArrayList<>();
+		ArrayList<String> AppDev = new ArrayList<>();
+		ArrayList<String> SoftDev = new ArrayList<>();
+		ArrayList<ArrayList<String>> Skills = new ArrayList<>();
 		Skills.add(SoftDev);
 		Skills.add(AppDev);
 		Skills.add(WebDev);
@@ -29,11 +29,13 @@ public class _2D_ArrayList {
 		AppDev.add("C++");
 		AppDev.add("JavaScript");
 		AppDev.add("Java");
-	
-		for(int i=0; i<Skills.size();i++) {
-			
-			System.out.println(Skills.get(i)+"\n");	
-		}
+
+		System.out.println(Skills.get(1).getFirst());
+		System.out.println(Skills.getLast().getLast());
+        for (ArrayList<String> skill : Skills) {
+
+            System.out.println(skill + "\n");
+        }
 		
 	}
 

@@ -82,8 +82,22 @@ public class Main {
 		System.out.println();
 		System.out.println(car2.getMake());
 		System.out.println(car2.getModel());
-		System.out.println(car2.getYear());		
-	
+		System.out.println(car2.getYear());
+
+
+		Cat kitty = new Cat("Gushun", "meow", 1);
+		kitty.meow();
+		System.out.println(kitty.name);
+
+		Cat tintin = new Cat(kitty);
+		tintin.set_animal_name("Tin Tin");
+		System.out.println(tintin.name);
+		System.out.println(tintin.age);
+		tintin.clawsofa();
+		kitty.clawsofa();
+//////////////////////////////////////////////INTERFACES/////////////
+		Prey_Rabbit buni = new Prey_Rabbit();
+		buni.flee();
 	}
 
 }

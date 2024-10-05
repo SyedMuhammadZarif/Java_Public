@@ -10,8 +10,7 @@ public class Class_Demo_Weapons {
 	}
 	
 	void reload() {
-		System.out.println("Reloading!");
-	}
+		System.out.println("Reloading!");}
 	/////////method overriding///gets it from public hence keyword
 	public String toString(){
 		

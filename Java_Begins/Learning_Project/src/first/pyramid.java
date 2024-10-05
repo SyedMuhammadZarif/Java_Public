@@ -4,7 +4,7 @@ public class pyramid {
 	public static void main(String[]args) {
 		
 		Scanner scan = new Scanner(System.in);
-		int spaces = 20;
+		int spaces = 1;
 		char symb = '@';
 		int chars = -1;
 		for(int i = 0; i<=spaces; i++) {
